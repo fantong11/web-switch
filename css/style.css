@@ -64,11 +64,16 @@ p {
 	box-shadow: 0 1px 0 rgba(4,0,0,0.1);
 }
 
+.game-nav-items:hover {
+	cursor: pointer;
+}
+
 .game-item {
 	width: 20%;
 	line-height: 4.2;
 	border-right: 1px #ededed solid;
 }
+
 
 .game-icon {
 	height: 45px;
@@ -104,6 +109,10 @@ p {
 	color: black;
 }
 
+.news a:hover {
+	color: #E60012;
+}
+
 .product {
 	padding-top: 56px;
 	padding-bottom:70px;
@@ -121,6 +130,10 @@ p {
 
 .product img:hover {
 	opacity: 0.8;
+}
+
+.product .news-info:hover {
+	color: #E60012;
 }
 
 #card {
@@ -153,9 +166,6 @@ p {
 
 .logo {
 	height: 40px;
-	margin-left: 50px;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 
 .background-grey {
@@ -165,7 +175,7 @@ p {
 
 .footer-list {
 	margin: 0;
-	padding-left: 30px;
+	padding: 0;
 	display: flex;
 	text-decoration: none;
 	justify-content: space-between;
@@ -177,8 +187,15 @@ p {
 
 .footer-list li a {
 	color: black;
+	font-size: 12px;
 }
 
+.footer-text {
+	color: #999;
+	font-size: 12px;
+	padding: 5px;
+	text-align: right;
+}
 
 @media (min-width: 992px) {
 	.nav-bar {
